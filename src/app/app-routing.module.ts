@@ -5,8 +5,8 @@ import { PantallaExamenComponent } from './pages/pantalla-examen/pantalla-examen
 
 const routes: Routes = [
 
-    { path: '', redirectTo: 'inicio', pathMatch: 'full' },
-    { path: 'inicio', component: PantallaExamenComponent }
+    { path: '', redirectTo: 'pantalla-examen', pathMatch: 'full' },
+    { path: 'pantalla-examen', component: PantallaExamenComponent }
 ];
 
 @NgModule(
